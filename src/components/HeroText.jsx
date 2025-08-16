@@ -67,7 +67,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi, I'm Austin
+          Saint Augustine's Youth Choir presents:
         </motion.p>
         <motion.p
           className="text-4xl font-black text-neutral-300"
@@ -76,7 +76,11 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1.2 }}
         >
-          Building
+          For the beauty
+            <br /> of the  <FlipWords
+                words={words}
+                className="font-black text-white text-6xl"
+              />
         </motion.p>
 
         <motion.div
