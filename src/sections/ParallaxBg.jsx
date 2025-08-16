@@ -62,7 +62,7 @@ const ParallaxBg = () => {
           className="absolute inset-0 -z-30 md:flex"
           style={{
             // ${`md:`} "
-            backgroundImage:" url(${`md`} )",
+            backgroundImage:"url(/assets/trumpet.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: mountain3Y,
