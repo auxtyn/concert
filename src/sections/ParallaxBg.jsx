@@ -14,9 +14,17 @@ const ParallaxBg = () => {
       <div className="relative h-screen overlow-y-hidden">
         {/* bg sky */}
         <div
-          className="absolute inset-0 w-full h-screen -z-50"
+          className="absolute inset-0 w-full h-screen -z-50 md:flex"
           style={{
             backgroundImage: "url(/assets/sky.jpg)",
+            backgroundPosition: "bottom",
+            backgroundSize: "cover",
+          }}
+        ></div>
+         <div
+          className="absolute inset-0 w-full h-screen -z-50 md:hidden"
+          style={{
+            backgroundImage: "url(/assets/skyM.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -32,7 +40,7 @@ const ParallaxBg = () => {
           }}
         ></motion.div>
         <motion.div
-          className="absolute inset-0 -z-40"
+          className="absolute inset-0 -z-40 md:flex"
           style={{
             backgroundImage: "url(/assets/birds.png)",
             backgroundPosition: "bottom",
@@ -40,11 +48,30 @@ const ParallaxBg = () => {
             y: mountain3Y,
           }}
         ></motion.div>
+         <motion.div
+          className="absolute inset-0 -z-40 md:hidden"
+          style={{
+            backgroundImage: "url(/assets/birdsM.png)",
+            backgroundPosition: "bottom",
+            backgroundSize: "cover",
+            y: mountain3Y,
+          }}
+        ></motion.div>
         {/* planets */}
         <motion.div
-          className="absolute inset-0 -z-30"
+          className="absolute inset-0 -z-30 md:flex"
           style={{
-            backgroundImage: "url(/assets/trumpet.png)",
+            // ${`md:`} "
+            backgroundImage:" url(${`md`} )",
+            backgroundPosition: "bottom",
+            backgroundSize: "cover",
+            x: mountain3Y,
+          }}
+        ></motion.div>
+         <motion.div
+          className="absolute inset-0 -z-30 md:hidden"
+          style={{
+            backgroundImage: "url(/assets/trumpetM.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: mountain3Y,
