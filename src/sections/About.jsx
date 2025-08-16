@@ -123,8 +123,9 @@ const About = () => {
           <span className="text-cyan-300"></span> The audience sings together,
           producing beautiful sounds of worship to God
         </p>
+        <hr />
 
-        <h1 className="headtext">Children's choir performance</h1>
+        <h1 className="text-heading mt-5">Children's choir performance</h1>
         <h1 className="headtext">● Circle of life</h1>
 
         <p className="  text-cyan-300">
@@ -141,21 +142,22 @@ const About = () => {
           cultural touchstone, symbolizing the interconnectedness of all living
           things.
         </p>
-        <h1 className="headtext">Solo performances</h1>
+        <hr />
+        <h1 className="text-heading mt-5">Solo performances</h1>
         {/* <p className="  text-cyan-300">Composed by John Rutter (1714)</p> */}
-        <p className="subtext mb-5">
-          {/* <span className="text-cyan-300">Background: </span>  */}
+        <p className=" mb-5 text-cyan-300">
           Soloists render beautiful songs
+          {/* <span className="text-cyan-300">Background: </span>  */}
         </p>
 
         <hr />
 
-        <h1 className="headtext">Induction of patrons / Awards</h1>
+        <h1 className="text-heading mt-5 ">Induction of patrons / Awards</h1>
         {/* <p className="  text-cyan-300">Composed by Henry Van Dyke (1907)</p> */}
         <p className="subtext mb-5">
           <span className="text-cyan-300">By the parish priest</span>
         </p>
-        <hr />
+        <hr className="mt-5" />
       </section>
 
       <section className="">
@@ -188,6 +190,17 @@ const About = () => {
         </p>
 
         <hr />
+        <h1 className="text-heading mt-5 ">
+          Presentation of awards / fund raising
+        </h1>
+        {/* <p className="  text-cyan-300">Composed by Henry Van Dyke (1907)</p> */}
+        <p className="subtext mb-5">
+          <span className="text-cyan-300">
+            The choir takes this time to acknowledge and appreciate outstanding,
+            and diligent members who have served the choir in various capacities
+          </span>
+        </p>
+        <hr className="mt-5" />
         <section className="">
           <h2 className="text-heading mb-5 mt-5 pt-5 text-left">
             Part 3 - <span className="text-cyan-300 ">Anthems </span>
@@ -274,6 +287,26 @@ const About = () => {
           <hr />
         </section>
       </section>
+      <h1 className="text-heading mt-5 ">Refreshment</h1>
+      {/* <p className="  text-cyan-300">Composed by Henry Van Dyke (1907)</p> */}
+      <p className="subtext mb-5">
+        <span className="text-cyan-300">Make we enjoy small</span>
+      </p>
+      <hr className="mt-5" />
+
+      <h1 className="text-heading mt-5 ">Closing Remark</h1>
+      {/* <p className="  text-cyan-300">Composed by Henry Van Dyke (1907)</p> */}
+      <p className="subtext mb-5">Planning Committee Chairman - 
+        <span className="text-cyan-300"> Mbigbo Charles</span>
+      </p>
+      <hr className="mt-5" />
+
+      <h1 className="text-heading mt-5 ">Vote of thanks</h1>
+      {/* <p className="  text-cyan-300">Composed by Henry Van Dyke (1907)</p> */}
+      <p className="subtext mb-5">Choirmaster general - 
+        <span className="text-cyan-300"> Obuh Benedicta</span>
+      </p>
+      <hr className="mt-5" />
     </section>
   );
 };

@@ -15,7 +15,7 @@ const Navigation = () => {
       </li>
       <li className="nav-li">
         <a href="" className="nav-link">
-          Work
+          Lyrics
         </a>
       </li>
       <li className="nav-li">
