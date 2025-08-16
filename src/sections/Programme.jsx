@@ -1,6 +1,6 @@
 // import Card from "../components/cARD.JSX";
 
-const About = () => {
+const Programme = () => {
   return (
     <section className="c-space">
       <section className="">
@@ -311,4 +311,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Programme;

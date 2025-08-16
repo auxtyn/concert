@@ -22,7 +22,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Saint Augustine's Youth Choir presents:
+          Saint Augustine's Youth Choir
         </motion.h1>
 
         <div className="flex flex-col items-start">
@@ -61,15 +61,15 @@ const HeroText = () => {
       </div>
 
       {/* Mobile view */}
-      <div className="flex flex-col md:hidden mb-5 pb-5">
+      <div className="flex flex-col md:hidden mb-5 pb-5 mt-5 pt-5">
         <motion.p
-          className="text-2xl-50 font-medium"
+          className="text-3xl-100 font-medium"
           variants={variants}
           initial="hidden"
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Saint Augustine's Youth Choir presents:
+          Saint Augustine's Youth Choir
         </motion.p>
         <motion.p
           className="text-4xl font-black text-neutral-300"

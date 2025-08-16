@@ -8,6 +8,11 @@ const Navigation = () => {
           Home
         </a>
       </li>
+        <li className="nav-li">
+        <a href="" className="nav-link">
+          Programme
+        </a>
+      </li>
       <li className="nav-li">
         <a href="" className="nav-link">
           About
