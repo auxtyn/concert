@@ -31,7 +31,7 @@ const About = () => {
       <section className="">
         <h1 className="headtext">3. Opening remark</h1>
         <p className="  text-cyan-300 mb-5">
-          By the committe chairman - Mbigbo Charles
+          By the chairman of the day - Chief Martin
         </p>
         <hr />
       </section>
@@ -198,37 +198,77 @@ const About = () => {
           <h1 className="headtext">● Lift up your heads, O ye gates</h1>
           <p className="  text-cyan-300">Composed by Georg Weissel (1642)</p>
           <p className="subtext mb-5">
-            <span className="text-cyan-300">Background: </span> Inspired by Psalm 24, Weissel wrote this hymn during the Thirty Years’ War, calling believers to open their hearts to the “King of Glory.” The anthem’s majestic tone and scriptural depth make it a powerful call to worship and spiritual readiness.
+            <span className="text-cyan-300">Background: </span> Inspired by
+            Psalm 24, Weissel wrote this hymn during the Thirty Years’ War,
+            calling believers to open their hearts to the “King of Glory.” The
+            anthem’s majestic tone and scriptural depth make it a powerful call
+            to worship and spiritual readiness.
           </p>
 
           <h1 className="headtext">● How Excellent Is Thy Loving Kindness</h1>
-          <p className="  text-cyan-300">Composed by Charles F. Noyes (Date uncertain, likely 19th century)</p>
+          <p className="  text-cyan-300">
+            Composed by Charles F. Noyes (Date uncertain, likely 19th century)
+          </p>
           <p className="subtext mb-5">
-            <span className="text-cyan-300">Background: </span> Based on Psalm 36:7, this hymn praises God’s mercy and protection. Its lyrical beauty and rich harmonies evoke a sense of divine shelter and satisfaction, making it a cherished piece in both African and Western sacred music traditions
-            permanence.
+            <span className="text-cyan-300">Background: </span> Based on Psalm
+            36:7, this hymn praises God’s mercy and protection. Its lyrical
+            beauty and rich harmonies evoke a sense of divine shelter and
+            satisfaction, making it a cherished piece in both African and
+            Western sacred music traditions permanence.
           </p>
           <h1 className="headtext">● Come let us sing</h1>
           <p className="  text-cyan-300">Composed by James Varrick Armah</p>
           <p className="subtext mb-5">
-            <span className="text-cyan-300">Background: </span> Originally written for children, this hymn invites all to rise in praise. Wesley’s poetic style blends biblical themes with accessible language, making it suitable for worshippers of all ages. It’s a joyful celebration of creation, resurrection, and divine love.
+            <span className="text-cyan-300">Background: </span> Originally
+            written for children, this hymn invites all to rise in praise.
+            Wesley’s poetic style blends biblical themes with accessible
+            language, making it suitable for worshippers of all ages. It’s a
+            joyful celebration of creation, resurrection, and divine love.
           </p>
           <h1 className="headtext">● Hail Smiling Morn</h1>
-          <p className="  text-cyan-300">Composed by Reginald Spofforth (1810)</p>
+          <p className="  text-cyan-300">
+            Composed by Reginald Spofforth (1810)
+          </p>
           <p className="subtext mb-5">
-            <span className="text-cyan-300">Background: </span> A classic English glee, this piece is often sung as a carol during Christmas or Easter. Its cheerful melody and poetic imagery of dawn breaking symbolize hope and renewal. Popular in Yorkshire pub traditions, it remains one of the most beloved glees in choral history.
-            powerful anthem of praise.
+            <span className="text-cyan-300">Background: </span> A classic
+            English glee, this piece is often sung as a carol during Christmas
+            or Easter. Its cheerful melody and poetic imagery of dawn breaking
+            symbolize hope and renewal. Popular in Yorkshire pub traditions, it
+            remains one of the most beloved glees in choral history. powerful
+            anthem of praise.
           </p>
           <h1 className="headtext">● Day by Day, We Magnify Thee</h1>
           <p className="  text-cyan-300">John Ellerton (1858)</p>
           <p className="subtext mb-5">
-            <span className="text-cyan-300">Background: </span> Written for daily school worship, this hymn emphasizes consistent praise through work, prayer, and obedience. Ellerton’s gentle verses encourage a life of devotion, culminating in the hope of eternal worship.
+            <span className="text-cyan-300">Background: </span> Written for
+            daily school worship, this hymn emphasizes consistent praise through
+            work, prayer, and obedience. Ellerton’s gentle verses encourage a
+            life of devotion, culminating in the hope of eternal worship.
           </p>
           <h1 className="headtext">● And We Worship Thy Name</h1>
-          <p className="  text-cyan-300">
-            Composer: Unknown
-          </p>
+          <p className="  text-cyan-300">Composer: Unknown</p>
           <p className="subtext mb-5">
-            <span className="text-cyan-300">Background: </span> Though specific origins are unclear, this anthem reflects themes of reverence and adoration. Often performed in modern gospel settings, it emphasizes collective worship and the majesty of God’s name, drawing from Psalms and Revelation for its lyrical inspiration.
+            <span className="text-cyan-300">Background: </span> Though specific
+            origins are unclear, this anthem reflects themes of reverence and
+            adoration. Often performed in modern gospel settings, it emphasizes
+            collective worship and the majesty of God’s name, drawing from
+            Psalms and Revelation for its lyrical inspiration.
+          </p>
+          <h1 className="headtext">
+            ● The Heavens Are Telling the Glory of God
+          </h1>
+          <p className="  text-cyan-300">Composer: Joseph Haydn (1798)</p>
+          <p className="subtext mb-5">
+            <span className="text-cyan-300">Background: </span> This majestic
+            chorus is taken from Haydn’s oratorio The Creation, which was
+            inspired by the Book of Genesis and Psalm 19. The piece opens with
+            the line “The heavens are telling the glory of God,” echoing King
+            David’s declaration that nature itself proclaims divine majesty.
+            Haydn’s composition blends classical grandeur with spiritual
+            reverence, using rich harmonies and dramatic dynamics to evoke awe
+            and wonder. It’s a celebration of both musical artistry and
+            theological truth, reminding listeners that the cosmos is a living
+            testament to God’s glory
           </p>
 
           <hr />
