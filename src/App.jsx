@@ -15,6 +15,7 @@ function App() {
         <Hero />
         <About />
 
+        {/* <section className="min-h-screen"></section>
         <section className="min-h-screen"></section>
         <section className="min-h-screen"></section>
         <section className="min-h-screen"></section>
@@ -23,8 +24,7 @@ function App() {
         <section className="min-h-screen"></section>
         <section className="min-h-screen"></section>
         <section className="min-h-screen"></section>
-        <section className="min-h-screen"></section>
-        <section className="min-h-screen"></section>
+        <section className="min-h-screen"></section> */}
         {/* <Test /> */}
       </div>
     </>

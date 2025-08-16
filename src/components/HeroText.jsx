@@ -31,19 +31,18 @@ const HeroText = () => {
             transition={{ delay: 1.2 }}
           >
             For the beauty
-            <br /> of the  <FlipWords
-                words={words}
-                className="font-black text-white text-6xl"
-              />
+            <br /> of the{" "}
+            <FlipWords
+              words={words}
+              className="font-black text-white text-6xl"
+            />
             {/* Flip words from aceternity  */}
             <motion.div
               variants={variants}
               initial="hidden"
               animate="visible"
               transition={{ delay: 1.5 }}
-            >
-             
-            </motion.div>
+            ></motion.div>
           </motion.p>
 
           {/* <motion.p
@@ -59,9 +58,9 @@ const HeroText = () => {
       </div>
 
       {/* Mobile view */}
-      <div className="flex flex-col md:hidden">
+      <div className="flex flex-col md:hidden mb-5 pb-5">
         <motion.p
-          className="text-4xl font-medium"
+          className="text-2xl-50 font-medium"
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -77,11 +76,13 @@ const HeroText = () => {
           transition={{ delay: 1.2 }}
         >
           For the beauty
-            <br /> of the  <FlipWords
-                words={words}
-                className="font-black text-white text-6xl"
-              />
+          <br /> of the{" "}
+          <FlipWords words={words} className="font-black text-white text-3xl" />
         </motion.p>
+
+
+
+
 
         <motion.div
           variants={variants}
@@ -89,10 +90,10 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1.5 }}
         >
-          <FlipWords
+          {/* <FlipWords
             words={words}
             className="font-bold   text-white text-7xl"
-          />
+          /> */}
         </motion.div>
 
         {/* <motion.p
