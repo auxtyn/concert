@@ -1,4 +1,4 @@
-import Card from "../components/cARD.JSX";
+// import Card from "../components/cARD.JSX";
 
 const About = () => {
   return (
