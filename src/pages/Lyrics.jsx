@@ -36,32 +36,24 @@ const Lyrics = () => {
           </h1>
           <p className="subtext mb-5 text-center text-2xl">
             <span className="text-cyan-100">Verse 1</span> Joyful, joyful, we
-            adore You,
-            <br />
-            God of glory, Lord of love;
+            adore You, God of glory, Lord of love;
             <br />
             Hearts unfold like flow'rs before You,
             <br />
-            Op'ning to the sun above.
+            Op'ning to the sun above. Melt the clouds of sin and sadness;
             <br />
-            Melt the clouds of sin and sadness;
+            Drive the dark of doubt away; Giver of immortal gladness,
             <br />
-            Drive the dark of doubt away;
-            <br />
-            Giver of immortal gladness,
-            <br />
-            Fill us with the light of day!
-            <br />
-            Verse 2: All Your works with joy surround You, Earth and heav'n
-            reflect
+            Fill us with the light of day! Verse 2: All Your works with joy
+            surround You, Earth and heav'n reflect
             <br />
             Your rays, Stars and angels sing around You, Center of unbroken
             <br />
             praise; Field and forest, vale and mountain, Flow'ry meadow,
             <br />
             flashing sea, Chanting bird and flowing fountain Praising You
+            eternally!
             <br />
-            eternally! <br />
             3 Always giving and forgiving, Ever blessing, ever blest,
             <br />
             Well-spring of the joy of living, Ocean-depth of happy rest! Loving
