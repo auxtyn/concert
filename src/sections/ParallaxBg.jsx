@@ -19,6 +19,7 @@ const ParallaxBg = () => {
             backgroundImage: "url(/assets/sky.jpg)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
+             y: planetX,
           }}
         ></div>
         <div
@@ -36,7 +37,7 @@ const ParallaxBg = () => {
             backgroundImage: "url(/assets/birds-2.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
-            y: mountain4Y,
+            y: mountain2Y,
           }}
         ></motion.div>
         <motion.div
