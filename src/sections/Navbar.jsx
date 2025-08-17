@@ -41,7 +41,7 @@ const Navbar = () => {
             href="/"
             className="text-sm font-bold transition-colors text-neutral hover:text-white"
           >
-           <img src="/assets/logo.png" alt="" srcset="" className="w-10"/>
+           <img src="/assets/logo.png" alt="" className="w-10"/>
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

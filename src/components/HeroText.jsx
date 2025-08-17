@@ -83,10 +83,6 @@ const HeroText = () => {
           <FlipWords words={words} className="font-black text-white text-3xl" />
         </motion.p>
 
-
-
-
-
         <motion.div
           variants={variants}
           initial="hidden"

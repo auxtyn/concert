@@ -7,7 +7,7 @@ const ParallaxBg = () => {
   const planetX = useTransform(x, [0, 0.5], ["0%", "-20%"]);
   const mountain2Y = useTransform(x, [0, 0.5], ["0%", "30%"]);
   const mountain1Y = useTransform(x, [0, 0.5], ["0%", "70%"]);
-   const mountain4Y = useTransform(x, [0, 0.7], ["0%", "8%"]);
+  const mountain4Y = useTransform(x, [0, 0.7], ["0%", "8%"]);
 
   return (
     <section className="absolute inset-0 bg-black/40">
@@ -21,7 +21,7 @@ const ParallaxBg = () => {
             backgroundSize: "cover",
           }}
         ></div>
-         <div
+        <div
           className="absolute inset-0 w-full h-screen -z-50 md:hidden"
           style={{
             backgroundImage: "url(/assets/skyM.png)",
@@ -43,32 +43,32 @@ const ParallaxBg = () => {
           className="absolute inset-0 -z-40 md:flex"
           style={{
             backgroundImage: "url(/assets/birds.png)",
-            backgroundPosition: "bottom",
+            backgroundPosition: "top",
             backgroundSize: "cover",
             y: mountain3Y,
           }}
         ></motion.div>
-         <motion.div
+        <motion.div
           className="absolute inset-0 -z-40 md:hidden"
           style={{
             backgroundImage: "url(/assets/birdsM.png)",
-            backgroundPosition: "bottom",
+            backgroundPosition: "top",
             backgroundSize: "cover",
-            y: mountain3Y,
+            y: mountain1Y,
           }}
         ></motion.div>
         {/* planets */}
         <motion.div
-          className="absolute inset-0 -z-30 md:flex"
+          className="absolute inset-0 -z-30 hidden md:flex"
           style={{
             // ${`md:`} "
-            backgroundImage:"url(/assets/trumpet.png)",
+            backgroundImage: "url(/assets/trumpet.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: mountain3Y,
           }}
         ></motion.div>
-         <motion.div
+        <motion.div
           className="absolute inset-0 -z-30 md:hidden"
           style={{
             backgroundImage: "url(/assets/trumpetM.png)",

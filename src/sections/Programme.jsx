@@ -28,15 +28,24 @@ const Programme = () => {
         <p className="subtext mb-5">The priest officially opens the event</p>
         <hr />
       </section>
+
       <section className="">
-        <h1 className="headtext">3. Opening remark</h1>
+        <h1 className="headtext">3. Welcome speech</h1>
+        <p className="  text-cyan-300 mb-5">
+          By the Choirmaster - Obuh Benedicta
+        </p>
+        <hr />
+      </section>
+
+      <section className="">
+        <h1 className="headtext">4. Opening remark</h1>
         <p className="  text-cyan-300 mb-5">
           By the chairman of the day - Chief Martin
         </p>
         <hr />
       </section>
       <section className="">
-        <h1 className="headtext">4. Breaking of kolanut</h1>
+        <h1 className="headtext">5. Breaking of kolanut</h1>
         <p className="  text-cyan-300 mb-5">By the chairman - Chief Martin</p>
         <hr />
       </section>
@@ -70,11 +79,7 @@ const Programme = () => {
         <h1 className="headtext">● For the beauty of The Earth</h1>
         <p className="  text-cyan-300">Composed by John Rutter (1714)</p>
         <p className="subtext mb-5">
-          <span className="text-cyan-300">Background: </span> A paraphrase of
-          Psalm 90, this hymn was written during a time of political and
-          religious turmoil in England. Watts offered comfort and assurance in
-          God’s eternal presence, contrasting human frailty with divine
-          permanence.
+          <span className="text-cyan-300">Background: </span> John Rutter's inspiration for "For the Beauty of the Earth" stems from the hymn of the same name by Folliott S. Pierpoint. Pierpoint's text, written in 1864, expresses gratitude for the beauty of the natural world and its connection to divine creation, particularly the sacrifice of Jesus Christ
         </p>
         <h1 className="headtext">● O God beyond all praising</h1>
         <p className="  text-cyan-300">Composed Michael Perry (1982)</p>
@@ -296,14 +301,16 @@ const Programme = () => {
 
       <h1 className="text-heading mt-5 ">Closing Remark</h1>
       {/* <p className="  text-cyan-300">Composed by Henry Van Dyke (1907)</p> */}
-      <p className="subtext mb-5">Planning Committee Chairman - 
+      <p className="subtext mb-5">
+        Planning Committee Chairman -
         <span className="text-cyan-300"> Mbigbo Charles</span>
       </p>
       <hr className="mt-5" />
 
       <h1 className="text-heading mt-5 ">Vote of thanks</h1>
       {/* <p className="  text-cyan-300">Composed by Henry Van Dyke (1907)</p> */}
-      <p className="subtext mb-5">Choirmaster general - 
+      <p className="subtext mb-5">
+        Choirmaster general -
         <span className="text-cyan-300"> Obuh Benedicta</span>
       </p>
       <hr className="mt-5" />
