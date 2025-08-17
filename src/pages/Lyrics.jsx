@@ -52,19 +52,30 @@ const Lyrics = () => {
             <br />
             Fill us with the light of day!
             <br />
-            2 All Your works with joy surround You, Earth and heav'n reflect
+            Verse 2: All Your works with joy surround You, Earth and heav'n
+            reflect
+            <br />
             Your rays, Stars and angels sing around You, Center of unbroken
+            <br />
             praise; Field and forest, vale and mountain, Flow'ry meadow,
+            <br />
             flashing sea, Chanting bird and flowing fountain Praising You
+            <br />
             eternally! <br />
             3 Always giving and forgiving, Ever blessing, ever blest,
+            <br />
             Well-spring of the joy of living, Ocean-depth of happy rest! Loving
+            <br />
             Father, Christ our Brother, Let Your light upon us shine; Teach us
-            how to love each other, Lift us to the joy divine. <br />4 Mortals,
-            join the mighty chorus, Which the morning stars began; God's own
-            love is reigning o’er us, Joining people hand in hand. Ever singing,
-            march we onward, Victors in the midst of strife; Joyful music leads
-            us sunward In the triumph song of life.
+            <br />
+            how to love each other, Lift us to the joy divine. <br />
+            Verse 4 Mortals, join the mighty chorus, Which the morning stars
+            began;
+            <br /> God's own love is reigning o’er us, Joining people hand in
+            hand. Ever <br />
+            singing, march we onward, Victors in the midst of strife; Joyful
+            music <br />
+            leads us sunward In the triumph song of life.
           </p>
           <hr />
         </section>

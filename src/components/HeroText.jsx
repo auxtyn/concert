@@ -2,9 +2,9 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
 const HeroText = () => {
-  // const words = ["Earth", "skies", "clouds", "birds", "plains", "cosmos"];
+  const words = ["Earth", "skies", "clouds", "birds", "plains", "cosmos"];
 
-  const words = ["Earth"];
+  // const words = ["Earth"];
 
   const variants = {
     hidden: { opacity: 0, x: -50 },
@@ -77,7 +77,7 @@ const HeroText = () => {
           variants={variants}
           initial="hidden"
           animate="visible"
-          transition={{ delay: 1.2 }}
+          transition={{ delay: 3.2 }}
         >
           For the beauty
           <br /> of the{" "}

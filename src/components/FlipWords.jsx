@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 // import { cn } from "@/lib/utils";
 import { twMerge } from "tailwind-merge";
 
-export const FlipWords = ({ words, duration = 500, className }) => {
+export const FlipWords = ({ words, duration = 1000, className }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [isAnimating, setIsAnimating] = useState(false);
 
