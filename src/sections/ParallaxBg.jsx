@@ -75,7 +75,7 @@ const ParallaxBg = () => {
             backgroundImage: "url(/assets/trumpetM.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
-            x: mountain4Y,
+            x: mountain3Y,
           }}
         ></motion.div>
         {/* Mountain 2 */}
