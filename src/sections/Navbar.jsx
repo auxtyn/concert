@@ -1,34 +1,32 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
+
 const Navigation = () => {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a href="" className="nav-link">
+        <Link to="/" className="nav-link">
           Home
-        </a>
+        </Link>
       </li>
-        <li className="nav-li">
-        <a href="" className="nav-link">
+      {/* <li className="nav-li">
+        <Link to="/programme" className="nav-link">
           Programme
-        </a>
-      </li>
+        </Link>
+        </li> */}
       <li className="nav-li">
-        <a href="" className="nav-link">
-          About
-        </a>
-      </li>
-      <li className="nav-li">
-        <a href="" className="nav-link">
+        <Link to="/lyrics" className="nav-link">
           Lyrics
-        </a>
+        </Link>
       </li>
+    
       <li className="nav-li">
-        <a href="" className="nav-link">
+        <Link to="/contact" className="nav-link">
           Contact
-        </a>
+        </Link>
       </li>
-    </ul>
+    </ul>              
   );
 };
 const Navbar = () => {
@@ -41,7 +39,7 @@ const Navbar = () => {
             href="/"
             className="text-sm font-bold transition-colors text-neutral hover:text-white"
           >
-           <img src="/assets/logo.png" alt="" className="w-10"/>
+            <img src="/assets/logo.png" alt="" className="w-10" />
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
