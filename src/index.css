@@ -141,6 +141,7 @@ body {
   .nav-ul {
     flex-direction: row;
   }
+  
 }
 @media (min-width: 768px) {
   .nav-ul {
@@ -219,6 +220,7 @@ body {
     grid-column: span 3 / span 3;
     height: 100%;
   }
+  
 }
 
 .grid-3 {
@@ -243,6 +245,7 @@ body {
     grid-column: span 4 / span 4;
     height: 100%;
   }
+  
 }
 .field-label {
   font-size: 0.875rem;
@@ -322,6 +325,14 @@ body {
   .grid-3 {
     grid-column: span 3 / span 3;
     height: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .text-heading {
+    font-size: 1.5rem;
+  }
+  .text-heading span{
+    font-size: 1rem;
   }
 }
 .grid-4 {
